@@ -2,7 +2,7 @@ const login = require("facebook-chat-api");
 const fs = require("fs");
 
 // === CONFIG ===
-const threadID = "1234567890123456"; // Replace with group or user thread ID
+const threadID = "9410555209045909"; // Replace with group or user thread ID
 const messageToSend = "Hello from Termux Bot!";
 const delayInSeconds = 5;
 // ==============
