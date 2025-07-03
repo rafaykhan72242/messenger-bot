@@ -1,0 +1,9 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "main": "send-message.js",
+  "license": "MIT",
+  "dependencies": {
+    "facebook-chat-api": "^1.4.0"
+  }
+}
