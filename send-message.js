@@ -1,4 +1,4 @@
-const login = require("facebook-chat-api");
+const login = require("@xaviabot/fca-unofficial");
 const fs = require("fs");
 
 // Read the saved session
