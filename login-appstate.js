@@ -1,8 +1,8 @@
 const login = require("@xaviabot/fca-unofficial");
 const fs = require("fs");
 
-const email = "thefeezy72242@gmail.com";
-const password = "farazanees1234";
+const email = "Email";
+const password = "password";
 
 login({ email, password }, (err, api) => {
   if (err) return console.error("Login failed:", err);
