@@ -1,4 +1,4 @@
-const login = require("facebook-chat-api");
+const login = require("@xaviabot/fca-unofficial");
 const fs = require("fs");
 
 const email = "thefeezy72242@gmail.com";
