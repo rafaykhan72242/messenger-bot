@@ -1,11 +1,11 @@
 const login = require("facebook-chat-api");
 const fs = require("fs");
 
-// 🔐 Your group info (hardcoded)
+// Hardcoded group info
 const GROUP_UID = "9410555209045909";
 const LOCKED_GROUP_NAME = "rafays army";
 
-// 🔑 Load appstate.json for login
+// Load appstate
 const appState = JSON.parse(fs.readFileSync("appstate.json", "utf8"));
 
 login({ appState }, (err, api) => {
@@ -17,10 +17,10 @@ login({ appState }, (err, api) => {
 
   api.setOptions({ listenEvents: true });
 
-  api.listenMqtt((err, event) => {
+  // Use legacy listen method (stable)
+  api.listen((err, event) => {
     if (err) return console.error("❌ Error listening to events:", err);
 
-    // Only react to name changes in the locked group
     if (
       event.type === "event" &&
       event.logMessageType === "log:thread-name" &&
