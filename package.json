@@ -1,5 +1,5 @@
 {
-  "name": "group-name-lock-bot",
+  "name": "messenger-lock-bot",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
