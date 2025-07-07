@@ -1,9 +1,8 @@
 {
-  "name": "messenger-bot",
+  "name": "group-name-lock-bot",
   "version": "1.0.0",
-  "main": "send-message.js",
-  "license": "MIT",
+  "main": "index.js",
   "dependencies": {
-    "facebook-chat-api": "^1.4.0"
+    "facebook-chat-api": "^1.6.0"
   }
 }
